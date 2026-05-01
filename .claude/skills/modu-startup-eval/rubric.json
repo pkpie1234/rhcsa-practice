@@ -1,0 +1,49 @@
+{
+  "skill": "modu-startup-eval",
+  "track": "general-tech",
+  "version": "2026.05",
+  "axes": [
+    { "code": "D", "ko": "차별성", "en": "Differentiation", "max": 10 },
+    { "code": "E", "ko": "효과성", "en": "Effectiveness",   "max": 10 },
+    { "code": "I", "ko": "혁신성", "en": "Innovation",       "max": 10 },
+    { "code": "F", "ko": "실현가능성", "en": "Feasibility",   "max": 10 },
+    { "code": "M", "ko": "시장성", "en": "Market Potential", "max": 10 },
+    { "code": "S", "ko": "성장가능성", "en": "Scalability",   "max": 10 },
+    { "code": "T", "ko": "팀역량", "en": "Team",             "max": 10 },
+    { "code": "B", "ko": "사업모델", "en": "Business Model", "max": 10 }
+  ],
+  "rounds": {
+    "idea": {
+      "label": "아이디어 심사",
+      "weights": { "D": 25, "E": 20, "I": 20, "F": 15, "M": 10, "S": 5, "T": 5, "B": 0 },
+      "observation": []
+    },
+    "r1": {
+      "label": "1R 지역예선",
+      "weights": { "D": 20, "E": 15, "I": 15, "F": 20, "M": 10, "S": 8, "T": 7, "B": 5 },
+      "observation": ["멘토링 참여도", "보고서 품질"]
+    },
+    "r2": {
+      "label": "2R 지역오디션",
+      "weights": { "D": 15, "E": 12, "I": 12, "F": 15, "M": 13, "S": 13, "T": 10, "B": 10 },
+      "observation": ["발표력", "사업화자금 활용도"]
+    },
+    "r3": {
+      "label": "3R 권역오디션",
+      "weights": { "D": 12, "E": 10, "I": 12, "F": 13, "M": 15, "S": 15, "T": 13, "B": 10 },
+      "observation": ["시제품 완성도", "마일스톤"]
+    },
+    "r4": {
+      "label": "4R 전국오디션(결승)",
+      "weights": { "D": 10, "E": 10, "I": 12, "F": 12, "M": 18, "S": 18, "T": 10, "B": 10 },
+      "observation": ["결승 발표", "Q&A 대응"]
+    }
+  },
+  "grade_thresholds": {
+    "A": 85,
+    "B": 70,
+    "C": 55,
+    "D": 0
+  },
+  "notes": "가중치는 공개 정보 기반 추정치로 운영기관별 실제 배점과 다를 수 있음."
+}
